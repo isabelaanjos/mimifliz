@@ -1,0 +1,61 @@
+  body {  
+    color:rgb(226, 223, 223);
+    background: rgb(14, 14, 14);
+    margin: 0px;
+    font-family: "Concert One", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(10, 10, 10);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(220, 27, 137);
+}
+.chamada {
+    background: rgb(220, 27, 137);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: CENTER;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+ font-size: 45px;
+}
+
+p{
+font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.categoria-videos img {
+   opacity: 0.5;
+   height: 200px;
+}
+.categoria-videos img:hover {
+   opacity: 1.0;
+   border: 1px solid rgb(174, 42, 64);
+}
+.categoria h2{
+  color:  rgb(220, 27, 137);
+};
+
